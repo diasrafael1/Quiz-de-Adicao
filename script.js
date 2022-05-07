@@ -11,7 +11,6 @@ function numero1() {
     let numero1;
     //IFs para aumentar a dificuldade(gerar números maiores) referente a pontuação
     if (pontuador < 10) {
-        console.log("fase1.1")
         numero1 = Math.floor(Math.random() * 10)
     } else if (pontuador > 10 && pontuador < 20) {
         numero1 = Math.floor(Math.random() * 20)
@@ -25,7 +24,6 @@ function numero2() {
     let numero2;
     //IFs para aumentar a dificuldade(gerar números maiores) referente a pontuação
     if (pontuador < 10) {
-        console.log("fase1.2")
         numero2 = Math.floor(Math.random() * 10)
     } else if (pontuador > 10 && pontuador < 20) {
         numero2 = Math.floor(Math.random() * 20)
