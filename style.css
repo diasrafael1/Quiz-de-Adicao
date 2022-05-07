@@ -1,0 +1,58 @@
+body {
+    background-color: #1f1f1f;
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card__titulo, .card__pontuacao {
+    color: #00d76e;
+}
+
+.card__pergunta {
+    display: flex;
+    gap: 10px;
+    color: #FCFCFC;
+}
+
+.btn {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-gerador, .btn-verificar {
+    all: unset;
+    background-color: #FCFCFC;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-gerador:hover, .btn-verificar:hover {
+    background-color: #00d76e;
+}
+
+.card__resposta {
+    all: unset;
+    border: 3px solid black;
+    background-color: #efefef;
+}
+
+.acerto {
+    border: 3px solid green;
+}
+
+.erro {
+    border: 3px solid red;
+}
+
+.escondido {
+    display: none;
+}
