@@ -5,6 +5,8 @@
 
 **Quiz de Adição** é um quiz que eu criei para praticar meus conhecimentos com DOM, será gerado dois números e o seu objetivo é acertar o resultado da soma, conforme você aumenta sua pontuação também aumenta a dificuldade (gerando números maiores).
 
+<a href="https://diasrafael1.github.io/Quiz-de-Adicao/">Teste a aplicação!</a>
+
 **Obs:** É possível fazer com outros operadores (adição, subtração, divisão e multiplicação), só é preciso mudar no arquivo do JavaScript
 
 ## 🛠️Tecnologias
